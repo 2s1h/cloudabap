@@ -2,7 +2,7 @@
 @Metadata.allowExtensions: true
 @EndUserText.label: '###GENERATED Core Data Service Entity'
 define root view entity ZR_2666FLIGHT
-  as select from Z2666FLIGHT as Flight
+  as select from z2666flight as Flight
 {
   key carrier_id as CarrierId,
   key connection_id as ConnectionId,
@@ -22,7 +22,7 @@ define root view entity ZR_2666FLIGHT
   local_created_at as LocalCreatedAt,
   @Semantics.user.localInstanceLastChangedBy: true
   local_last_changed_by as LocalLastChangedBy,
-  @Semantics.systemDateTime.localInstanceLastChangedAt: true
+  @Semantics.systemDateTime.localInstanceLastChangedAt: true    
   local_last_changed_at as LocalLastChangedAt,
   @Semantics.systemDateTime.lastChangedAt: true
   last_changed_at as LastChangedAt
